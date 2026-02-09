@@ -1,3 +1,12 @@
+import Header from "../components/Header";
+
 export default function Kontakt() {
-    return <h1>Kontakt oss</h1>
+  return (
+    <>
+      <section>
+          <Header />
+        <h2>Kontakt oss</h2>
+      </section>
+    </>
+  );
 }

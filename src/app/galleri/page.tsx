@@ -1,3 +1,12 @@
+import Header from "../components/Header";
+
 export default function Galleri() {
-    return <h1>Galleri</h1>
+  return (
+    <>
+      <section>
+          <Header />
+        <h2>Galleri</h2>
+      </section>
+    </>
+  );
 }

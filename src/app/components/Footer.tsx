@@ -1,3 +1,11 @@
 export default function Footer() {
-    return <h1>Footer</h1>
+  return (
+    <>
+      <section>
+        <p>Location:</p>
+        <p>Phone:</p>
+        <p>Mail:</p>
+      </section>
+    </>
+  );
 }
