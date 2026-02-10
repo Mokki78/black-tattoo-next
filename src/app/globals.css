@@ -17,6 +17,18 @@ body {
 .bookingBtn {
   background-color: red;
   padding: 4px 12px;
-  color: white;
+  color: black;
   cursor: pointer;
+}
+
+.bookingBtn:hover {
+  background-color: lightgoldenredyellow;
+  padding: 4px 12px;
+  color: black;
+  cursor: pointer;
+}
+
+.heroimg {
+  width: 100%;
+  height: auto;
 }
