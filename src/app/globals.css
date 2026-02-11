@@ -9,9 +9,22 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: flex-end;
   padding: 20px;
   cursor: pointer;
+}
+
+.nav a {
+  width: 100px;
+  padding: 5px;
+  gap: 20px;
+}
+
+.nav a:hover {
+  width: 100px;
+  border: solid white 1px;
+  gap: 20px;
 }
 
 .bookingBtn {
@@ -19,12 +32,17 @@ body {
   padding: 4px 12px;
   color: black;
   cursor: pointer;
+  display: float;
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
 
 .bookingBtn:hover {
   background-color: lightgoldenredyellow;
   padding: 4px 12px;
   color: black;
+  border: groove white 2px;
   cursor: pointer;
 }
 
