@@ -4,7 +4,7 @@ export default function Hero() {
       <section>
         
         <p>Your body is your canvas and we help you get the art you diserve.</p>
-        <img src="../AdobeStock_925090751_Preview.jpeg" className="heroimg"/>
+        <img src="../Tattoo_1.jpg" className="heroimg"/>
         <button className="bookingBtn">Booking</button>
       </section>
     </>

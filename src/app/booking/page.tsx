@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 
-export default function Tjenester() {
+export default function Booking() {
   return (
     <>
       <section>
